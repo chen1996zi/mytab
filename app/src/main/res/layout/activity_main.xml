@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.mytab.MainActivity">
+    <include layout="@layout/title_spinner"/>
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myViewpager"
+        android:layout_weight="4"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:layout_gravity="center"
+        android:background="#123465">
+        <include layout="@layout/tab_item_change"/>
+        <include layout="@layout/tab_item_friends"/>
+        <include layout="@layout/tab_item_find"/>
+        <include layout="@layout/tab_item_me"/>
+    </LinearLayout>
+</LinearLayout>

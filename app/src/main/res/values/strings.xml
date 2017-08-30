@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyTab</string>
+    <string name="spinner_prompt">校园动态</string>
+    <string name="messageTitle">全部资讯</string>
+</resources>

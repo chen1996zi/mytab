@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:background="@color/colorTabBackground"
+        android:layout_width="match_parent"
+        android:layout_height="36dp">
+        <LinearLayout
+            android:id="@+id/school_change_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="校园动态"
+                android:textColor="#fff"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mass_change_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="社团动态"
+                android:textColor="#fff"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/friends_change_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="好友动态"
+                android:textColor="#fff"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+</LinearLayout>
+    <!--<android.support.v7.widget.AppCompatSpinner-->
+    <!--android:layout_weight="1"-->
+    <!--android:prompt="@string/spinner_prompt"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:popupBackground="#356421"-->
+    <!--android:id="@+id/change_school_spinner"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:gravity="center_horizontal|center_vertical"/>-->
+
+    <!--<android.support.v7.widget.AppCompatSpinner-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/change_mass_spinner"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:gravity="center_horizontal|center_vertical"/>-->
+
+    <!--<android.support.v7.widget.AppCompatSpinner-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/change_friends_spinner"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:gravity="center_horizontal|center_vertical"/>-->
